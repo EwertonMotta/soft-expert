@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+            "name": "Ewerton Motta",
+            "email": "ewerton.emotta@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/functions.php"
+        ]
+    }
+}
